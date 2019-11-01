@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("Welcome to Juniper Server");
+    return res.end("Willkommen auf Aruba");
   });
 
   wss = new WebSocketServer({
