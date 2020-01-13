@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("Willkommen auf Aruba");
+    return res.end("bienvenue à la licorne");
   });
 
   wss = new WebSocketServer({
