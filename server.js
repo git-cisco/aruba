@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("bienvenue à la licorne");
+    return res.end("Panasonic");
   });
 
   wss = new WebSocketServer({
